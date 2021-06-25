@@ -1,0 +1,240 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"22 E:\NOT_ME\BAI_2.X\BAI_2.c
+[v _main main `(v  1 e 1 0 ]
+"65
+[v _myIsr myIsr `II(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"18 E:\NOT_ME\BAI_2.X\lcd.c
+[v _lcd_busy lcd_busy `(uc  1 e 1 0 ]
+[v i1_lcd_busy lcd_busy `(uc  1 e 1 0 ]
+"103
+[v _lcd_put_nibble lcd_put_nibble `(v  1 e 1 0 ]
+[v i1_lcd_put_nibble lcd_put_nibble `(v  1 e 1 0 ]
+"134
+[v _lcd_put_byte lcd_put_byte `(v  1 e 1 0 ]
+[v i1_lcd_put_byte lcd_put_byte `(v  1 e 1 0 ]
+"167
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+[v i1_lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+"190
+[v _lcd_putc lcd_putc `(v  1 e 1 0 ]
+[v i1_lcd_putc lcd_putc `(v  1 e 1 0 ]
+"241
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+[v i1_lcd_init lcd_init `(v  1 e 1 0 ]
+"290
+[v _lcd_ShiftLeft lcd_ShiftLeft `(v  1 e 1 0 ]
+"304
+[v _lcd_ShiftRight lcd_ShiftRight `(v  1 e 1 0 ]
+"20 E:\NOT_ME\BAI_2.X\BAI_2.c
+[v _i i `ui  1 e 2 0 ]
+[v _reload reload `ui  1 e 2 0 ]
+"1478 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"2346
+[v _WPUB WPUB `VEuc  1 e 1 @149 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3896
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3923
+[v _INTE INTE `VEb  1 e 0 @92 ]
+"3926
+[v _INTEDG INTEDG `VEb  1 e 0 @1038 ]
+"3929
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"4184
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"4187
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"4190
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"4193
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"4196
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"4199
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"4202
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"4475
+[v _TRISD1 TRISD1 `VEb  1 e 0 @1089 ]
+"4478
+[v _TRISD2 TRISD2 `VEb  1 e 0 @1090 ]
+"4481
+[v _TRISD3 TRISD3 `VEb  1 e 0 @1091 ]
+"4484
+[v _TRISD4 TRISD4 `VEb  1 e 0 @1092 ]
+"4487
+[v _TRISD5 TRISD5 `VEb  1 e 0 @1093 ]
+"4490
+[v _TRISD6 TRISD6 `VEb  1 e 0 @1094 ]
+"4493
+[v _TRISD7 TRISD7 `VEb  1 e 0 @1095 ]
+"4664
+[v _nRBPU nRBPU `VEb  1 e 0 @1039 ]
+"22 E:\NOT_ME\BAI_2.X\BAI_2.c
+[v _main main `(v  1 e 1 0 ]
+{
+"30
+[v main@ten ten `DC[16]uc  1 s 16 ten ]
+"31
+[v main@thongtin thongtin `DC[16]uc  1 s 16 thongtin ]
+"32
+[v main@kytu_1 kytu_1 `DC[33]uc  1 s 33 kytu_1 ]
+"63
+} 0
+"190 E:\NOT_ME\BAI_2.X\lcd.c
+[v _lcd_putc lcd_putc `(v  1 e 1 0 ]
+{
+[v lcd_putc@c c `uc  1 a 1 wreg ]
+[v lcd_putc@c c `uc  1 a 1 wreg ]
+[v lcd_putc@c c `uc  1 a 1 19 ]
+"216
+} 0
+"167
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+{
+[v lcd_gotoxy@col col `uc  1 a 1 wreg ]
+"170
+[v lcd_gotoxy@address address `uc  1 a 1 16 ]
+"167
+[v lcd_gotoxy@col col `uc  1 a 1 wreg ]
+[v lcd_gotoxy@row row `uc  1 p 1 13 ]
+"173
+[v lcd_gotoxy@col col `uc  1 a 1 15 ]
+"182
+} 0
+"241
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"282
+} 0
+"134
+[v _lcd_put_byte lcd_put_byte `(v  1 e 1 0 ]
+{
+[v lcd_put_byte@rs rs `uc  1 a 1 wreg ]
+[v lcd_put_byte@rs rs `uc  1 a 1 wreg ]
+[v lcd_put_byte@b b `uc  1 p 1 10 ]
+"139
+[v lcd_put_byte@rs rs `uc  1 a 1 12 ]
+"158
+} 0
+"103
+[v _lcd_put_nibble lcd_put_nibble `(v  1 e 1 0 ]
+{
+[v lcd_put_nibble@b b `uc  1 a 1 wreg ]
+[s S36 . 1 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+]
+"106
+[u S45 _BYTE_VAL 1 `uc 1 Val 1 0 `S36 1 bits 1 0 ]
+[v lcd_put_nibble@temp temp `S45  1 a 1 9 ]
+"103
+[v lcd_put_nibble@b b `uc  1 a 1 wreg ]
+"109
+[v lcd_put_nibble@b b `uc  1 a 1 8 ]
+"125
+} 0
+"18
+[v _lcd_busy lcd_busy `(uc  1 e 1 0 ]
+{
+"21
+[v lcd_busy@busy busy `uc  1 a 1 8 ]
+"44
+} 0
+"65 E:\NOT_ME\BAI_2.X\BAI_2.c
+[v _myIsr myIsr `II(v  1 e 1 0 ]
+{
+"67
+[v myIsr@line_1 line_1 `DC[16]uc  1 s 16 line_1 ]
+"68
+[v myIsr@line_2 line_2 `DC[14]uc  1 s 14 line_2 ]
+"69
+[v myIsr@kytu_2 kytu_2 `DC[49]uc  1 s 49 kytu_2 ]
+"99
+} 0
+"190 E:\NOT_ME\BAI_2.X\lcd.c
+[v i1_lcd_putc lcd_putc `(v  1 e 1 0 ]
+{
+[v i1lcd_putc@c c `uc  1 a 1 wreg ]
+[v i1lcd_putc@c c `uc  1 a 1 wreg ]
+[v i1lcd_putc@c c `uc  1 a 1 12 ]
+"216
+} 0
+"167
+[v i1_lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+{
+[v i1lcd_gotoxy@col col `uc  1 a 1 wreg ]
+"170
+[v i1lcd_gotoxy@address address `uc  1 a 1 9 ]
+"167
+[v i1lcd_gotoxy@col col `uc  1 a 1 wreg ]
+[v i1lcd_gotoxy@row row `uc  1 p 1 6 ]
+"173
+[v i1lcd_gotoxy@col col `uc  1 a 1 8 ]
+"182
+} 0
+"241
+[v i1_lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"282
+} 0
+"134
+[v i1_lcd_put_byte lcd_put_byte `(v  1 e 1 0 ]
+{
+[v i1lcd_put_byte@rs rs `uc  1 a 1 wreg ]
+[v i1lcd_put_byte@rs rs `uc  1 a 1 wreg ]
+[v i1lcd_put_byte@b b `uc  1 p 1 3 ]
+"139
+[v i1lcd_put_byte@rs rs `uc  1 a 1 5 ]
+"158
+} 0
+"103
+[v i1_lcd_put_nibble lcd_put_nibble `(v  1 e 1 0 ]
+{
+[v i1lcd_put_nibble@b b `uc  1 a 1 wreg ]
+[s S36 . 1 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+]
+"106
+[u S45 _BYTE_VAL 1 `uc 1 Val 1 0 `S36 1 bits 1 0 ]
+[v i1lcd_put_nibble@temp temp `S45  1 a 1 2 ]
+"103
+[v i1lcd_put_nibble@b b `uc  1 a 1 wreg ]
+"109
+[v i1lcd_put_nibble@b b `uc  1 a 1 1 ]
+"125
+} 0
+"18
+[v i1_lcd_busy lcd_busy `(uc  1 e 1 0 ]
+{
+"21
+[v i1lcd_busy@busy busy `uc  1 a 1 1 ]
+"44
+} 0
